@@ -1,0 +1,318 @@
+---
+title: "STAR"
+subtitle: "Steps Towards Academic Research"
+author: "By: Ajay Koli"
+date: "`r format(Sys.Date(), '%B %e, %Y')`"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/my-theme.css", "css/my-fonts.css"]
+    seal: false
+    lib_dir: libs
+    nature:
+      # autoplay: 5000
+      highlightStyle: solarized-light
+      highlightLanguage: ["r", "css", "yaml"]
+      slideNumberFormat: "%current%/%total%" 
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(collapse = TRUE,
+                      fig.retina = 3,
+                      echo = FALSE)
+library(countdown)
+library(ymlthis)
+library(tidyverse)
+library(magick)
+library(icon)
+library(xaringanExtra)
+xaringanExtra::use_tachyons()
+xaringanExtra::use_tile_view()
+xaringanExtra::use_webcam()
+xaringanExtra::use_fit_screen()
+xaringanExtra::use_extra_styles(hover_code_line = TRUE, mute_unhighlighted_code = TRUE)
+xaringanExtra::use_share_again()
+
+```
+
+layout: true
+
+---
+
+class: title-slide, hide-count, center
+
+background-image: url("https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80")
+background-size: cover
+
+```{r meta, echo=FALSE}
+library(metathis)
+meta() %>%
+  meta_general(
+    description = "Ajay Koli - Vishwakarma University",
+    generator = "xaringan and remark.js"
+  ) %>% 
+  meta_name("github-repo" = "koliajaykr/plagiarism-zotero") %>% 
+  meta_social(
+    title = "Effective Citation & Referencing to avoid Plagiarism",
+    url = "https://plag-zotero.netlify.app/",
+    image = "https://plag-zotero.netlify.app/images/social-card.png",
+    og_type = "talk",
+    og_author = "Ajay Koli",
+    twitter_card_type = "summary_large_image",
+    twitter_creator = "@ajay_kolii"
+  ) %>%
+  include_meta()
+```
+
+<br>
+<br>
+<br>
+# .big-text.white[`r rmarkdown::metadata$title`]
+
+## .white.b[`r rmarkdown::metadata$subtitle`]
+
+### .white.b[`r rmarkdown::metadata$author` | `r format(Sys.Date(), "%d %B %Y") `]
+
+---
+class: center, middle
+
+.pull-left[
+```{r , echo=FALSE, out.width="70%"}
+library(magick)
+magick::image_read("images/ajaykoli.png") 
+```
+
+`r icon::fa("twitter")`[@ajay_kolii](https://twitter.com/ajay_kolii) <br> 
+`r icon::fa("envelope")`   [koliajaykumar@gmail.com](koliajaykumar@gmail.com)
+
+]
+
+.pull-right[
+<br>
+<br>
+<br>
+<br>
+
+# *Jai Bhim !!* `r emo::ji("blush")`
+]
+
+---
+
+# STAR 
+
+- STAR: Steps Towards Academic Research
+
+- It is a free research methodology course as part of Corporate Social Responsibility (CSR) activity of Department of Travel & Tourism, [Vishwakarma University](https://www.vupune.ac.in/) - Pune, India, exclusively for the students of [Digital Nalanda](https://www.digitalnalanda.com/). 
+
+- Its purpose is to encourage students to pursue research as a career.
+
+- Total number of session are eight from 15 Dec 2021 to 07 Jan 2022; every Wednesday & Friday from 06:30 to 08:30 PM IST
+
+
+---
+
+# Topics:
+
+1. Session (15 Dec) - 
+
+1. Session (17 Dec) -
+
+1. Session (22 Dec) -
+
+1. Session (24 Dec) -
+
+1. Session (29 Dec) -
+
+1. Session (31 Dec) -
+
+1. Session (05 Jan) -
+
+1. Session (07 Jan) -
+
+---
+
+class: center, middle, inverse, hide-count
+
+# Session 1 <br>
+
+---
+
+.pull-left[
+- Research & research design
+
+- Ethics in research
+
+- Review of the Literature
+
+- Research Approaches
+  - Qualitative methods
+  - Quantitative methods
+  - Mixed methods
+  
+- Analysis of Data
+  - Qualitative data analysis
+  - Quantitative data analysis
+]
+
+---
+
+# Science
+
+- A set of logical, systematic, documented methods for investigating nature and natural processes; the knowledge produced by these investigations.<sup>2</sup>
+
+--
+
+# Social Science
+
+- The use of scientific methods to investigate individuals, societies, and social processes; the knowledge produced by these investigations.<sup>2</sup>
+
+---
+
+# What is research?
+
+- "Just close your eyes for a minute and utter the word research to yourself."<sup>1</sup>
+
+--
+
+- "questions about the world and a desire to accurately answer them" <sup>2</sup>
+
+--
+
+- "steps from broad assumptions to detailed methods of data collection, analysis, and interpretation" <sup>3</sup>
+
+---
+
+class: middle, center
+
+## .blue["in our everyday reasoning about the social world, prior experiences and orientations may have a major influence on what we perceive and how we interpret these perceptions.] ... 
+--
+.green[We need to move beyond first impressions and get reactions to more systematic methods of investigation. That’s what social research does."]<sup>2</sup>
+
+---
+
+# Social science methods help to avoid<sup>2</sup> :
+
+-  `Overgeneralization:` Occurs when we unjustifiably conclude that what is true for some cases is true for all cases
+
+--
+
+- `Selective or Inaccurate Observation:` Choosing to look only at things that are in line with our preferences or beliefs.
+
+--
+
+-  `Illogical reasoning:` The premature jumping to conclusions or arguing on the basis of invalid assumptions.
+
+--
+
+- `Resistance to change:` The reluctance to change our ideas in light of new information.
+
+---
+
+# Social science methods help to avoid<sup>2</sup> :
+
+.pull-left[
+-  `Overgeneralization` 
+
+- `Selective or Inaccurate Observation` 
+
+-  `Illogical reasoning`
+
+- `Resistance to change`
+]
+
+.pull-right[
+```{r error-img, out.width="100%", fig.align='center'}
+knitr::include_graphics("images/error.png")
+```
+]
+---
+
+# Four goals of social research are<sup>2</sup>:
+
+1. `Description:` Research in which social phenomena are defined and described.
+
+--
+
+1. `Exploration:` Seeks to find out how people get along in the setting under question, what meanings they give to their actions, and what issues concern them. 
+
+--
+
+1. `Explanation:` Seeks to identify causes and effects of social phenomena and to predict how one phenomenon will change or vary in response to variation in another phenomenon.
+
+--
+
+1. `Evaluation:` Research that describes or identifies the impact of social policies and programs.
+
+---
+
+# How well have we done our research?
+
+- `Validity:` The state that exists when statements or conclusions about empirical reality are correct.
+
+
+
+---
+
+  - Measurement validity: Exists when an indicator measures what we think it measures.
+  - Generalizability
+  - Causal validity
+
+
+---
+
+class: center, middle, inverse, hide-count
+
+# Session 2 <br>
+
+---
+
+class: center, middle, inverse, hide-count
+
+# Session 3 <br>
+
+---
+
+class: center, middle, inverse, hide-count
+
+# Session 4 <br>
+
+---
+
+class: center, middle, inverse, hide-count
+
+# Session 5 <br>
+
+---
+
+class: center, middle, inverse, hide-count
+
+# Session 6 <br>
+
+---
+
+class: center, middle, inverse, hide-count
+
+# Session 7 <br>
+
+---
+
+class: center, middle, inverse, hide-count
+
+# Session 8 <br>
+
+
+---
+
+# References
+
+1. Babbie, E. R. (2020). The practice of social research. Cengage learning. 
+
+1. Chambliss, D. F., & Schutt, R. K. (2018). Making sense of the social world: Methods of investigation. Sage Publications.
+
+1. Creswell, J. W., & Creswell, J. D. (2017). Research design: Qualitative, quantitative, and mixed methods approaches. Sage publications.
+
+1. Sekaran, U., & Bougie, R. (2019). Research methods for business: A skill building approach. John Wiley & Sons.
+

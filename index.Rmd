@@ -506,7 +506,7 @@ detailed methods of data collection, analysis, and interpretation."
 ]
 
 .pull-right[
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Qualitative methods, mixed methods, quantitative methods. <a href="https://t.co/6iv8izV6Ag">pic.twitter.com/6iv8izV6Ag</a></p>&mdash; Dr Raul Pacheco-Vega (@raulpacheco) <a href="https://twitter.com/raulpacheco/status/1458808875222802433?ref_src=twsrc%5Etfw">November 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Qualitative methods, mixed methods, quantitative methods. <a href="https://t.co/6iv8izV6Ag">pic.twitter.com/6iv8izV6Ag</a></p>&mdash; Dr Raul Pacheco-Vega (@raulpacheco) <a href="https://twitter.com/raulpacheco/status/1458808875222802433?ref_src=twsrc%5Etfw">November 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 ]
 
 ---
@@ -1089,18 +1089,77 @@ background-image: url("https://images.unsplash.com/photo-1445905595283-21f8ae8a3
 background-size: cover
 background-position: 
 
-# .white[The Process and Problems of Social Research]
+# .white[Literature Review, <br>Measurement & Sampling]
 
 ## .white[Session 4]
 
 ---
+class: hide-logo, hide-count
 
-- The reasons why we do social research: to describe, explore, explain, and evaluate
+.pull-left[
+<br>
+<br>
+<br>
+<br>
+<br>
+# Literature Review
+]
 
-- How of social research:
-  - A research question, 
-  - Developing an appropriate research strategy and design with which to investigate that question, and
-  - Choosing appropriate units of analysis. 
+.pull-right[
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Search for that one reason/sentence while writing. <a href="https://twitter.com/hashtag/AcademicTwitter?src=hash&amp;ref_src=twsrc%5Etfw">#AcademicTwitter</a> <a href="https://twitter.com/OpenAcademics?ref_src=twsrc%5Etfw">@OpenAcademics</a> <a href="https://twitter.com/PhDVoice?ref_src=twsrc%5Etfw">@PhDVoice</a> <a href="https://twitter.com/PhD_Genie?ref_src=twsrc%5Etfw">@PhD_Genie</a> <a href="https://t.co/DzaYRY8Acr">pic.twitter.com/DzaYRY8Acr</a></p>&mdash; Dr. Imran Farooq (@drimran_farooq) <a href="https://twitter.com/drimran_farooq/status/1472660535284051972?ref_src=twsrc%5Etfw">December 19, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+]
+
+.footnote[
+Slide source Chapter 2 from the book Creswell, J. W., & Creswell, J. D. (2017). Research design: Qualitative, quantitative, and mixed methods approaches. Sage publications.
+]
+
+---
+
+# The Research Topic
+
+- "the central idea to learn about or to explore"
+
+--
+
+- My study is about ...
+
+--
+
+- Pose the topic as a brief question:
+
+  - What treatment is best for depression?
+  - What does it mean to be Dalit in Indian society today?
+  - What brings people to cities in India?
+
+---
+
+# The Research Topic
+
+### .orange[a new perspective or “angle” to the existing literature]
+
+--
+
+  - Studying an unusual location (e.g., caste in America)
+
+--
+  
+  - Examining an unusual group of participants (e.g., refugees)
+
+--
+
+  - Taking a perspective that may not be expected and reverses the expectation (e.g., why marriages do work rather than do not work)
+  
+--
+
+  - Providing novel means of collecting data (e.g., collect sounds)
+  
+--
+
+  - Presenting results in unusual ways (e.g., graphs that depict geographical locations)
+  
+--
+
+  - Studying a timely topic (e.g., agriculture laws, Dalits in Indian cinema)
 
 ---
 
@@ -1124,9 +1183,209 @@ A question about the social world that is answered through the collection and an
 
 ---
 
-# What Is the Theory?
+# Literature Review
 
-- Building and evaluating theory is one of the most important objectives of social science.
+- "literature review helps to determine whether the topic is .orange[worth studying], and it provides insight into ways in which the researcher can .orange[limit the scope] to a needed area of inquiry."
+
+--
+
+- "to consider whether the .orange[research topic] can and should be researched"
+
+---
+
+# Purposes of Literature Review:
+
+- It shares with the reader the results of other studies that are .orange[closely related] to the one being undertaken. 
+
+--
+
+- It relates a study to the larger, .orange[ongoing dialogue] in the literature, filling in gaps and extending prior studies
+
+--
+
+- It provides a framework for establishing the importance of the study as well as a benchmark for .orange[comparing the results] with other findings.
+
+---
+
+# Four types of literature reviews are:
+
+1. Integrate what others have done and said,
+
+--
+
+1. Criticize previous scholarly works, 
+
+--
+
+1. Build bridges between related topics, and 
+
+--
+
+1. Identify the central issues in a field.
+
+---
+
+# Conducting a Literature Review
+
+1. Begin by identifying key words
+
+--
+
+1. Searching the databases like [Google Scholar](https://scholar.google.com/), Web of Science, EBSCO, ProQuest, and JSTOR or you can also use website like [Library Genesis](https://libgen.is/) to download books and papers.
+
+--
+
+1. Skim this initial group of articles or chapters, and collect those that are central to your topic.
+
+--
+
+1. Designing a .orange[literature map] ... a visual picture of groupings of the literature on the topic that illustrates how your particular study will add to the existing literature and position your study within the larger body of research.
+
+---
+
+# Tools for Literature Review
+
+.pull-left[
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Academic writing is wild bc you’ll read four articles just to write one sentence. <br><br>Anyway, here’s a thread of resources I’ve been using to speed through this review I’m working on:</p>&mdash; Anicca Harriot🔬 (@13adh13) <a href="https://twitter.com/13adh13/status/1406664117147123715?ref_src=twsrc%5Etfw">June 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+]
+
+--
+
+.pull-right[
+
+1. [Connected Papers](https://www.connectedpapers.com/)
+
+1. [Open knowledge map](https://openknowledgemaps.org/index)
+
+1. [Scholarcy plug-in for Chrome](https://chrome.google.com/webstore/detail/scholarcy-research-paper/oekgknkmgmaehhpegfeioenikocgbcib?hl=en-GB)
+
+1. [Speechify app](https://speechify.com/)
+
+1. [Scite](https://scite.ai/)
+
+]
+
+---
+
+class: middle, center, hide-logo
+
+.pull-left[
+<br>
+<br>
+<br>
+<br>
+<br>
+# Measurement
+]
+
+.pull-right[
+
+```{r out.width="70%"}
+knitr::include_graphics("https://images.unsplash.com/photo-1562386502-cc212ede3c40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=790&q=80")
+```
+
+
+]
+
+.footnote[
+Slides from chapter 4 from book Chambliss, D. F., & Schutt, R. K. (2018). Making sense of the social world: Methods of investigation. Sage Publications.
+]
+
+---
+
+# Concept
+
+- A mental image that summarizes a set of similar observations, feelings, or ideas.
+
+--
+
+- Defining concepts clearly can be difficult because many concepts have several meanings and can be measured in many ways. Example family, caste, social capital etc.
+
+--
+
+- .orange[Conceptualization]: working out what your key terms will mean in your research - is a crucial part of the research process.
+
+---
+
+# Variable
+
+- A characteristic or property that can vary (take on different values or attributes).
+
+--
+
+# Constant
+
+- A number that has a fixed value in a given situation; a characteristic or value that does not change.
+
+---
+
+# Steps to find variables:
+
+1. Examine the theories that are relevant to our research question to identify those concepts that would be expected to have some bearing on the phenomenon we are investigating.
+
+--
+
+1. Review the relevant research literature, and assess the utility of variables used in prior research.
+
+--
+
+1. Consider the constraints and opportunities for measurement that are associated with the specific setting(s) we will study. Distinguish constants from variables in this setting.
+
+--
+
+1. Look ahead to our analysis of the data. What role will each variable play in our analysis?
+
+---
+
+class: center, middle
+
+```{r}
+knitr::include_graphics("images/operation.png")
+```
+
+---
+
+# Four levels of measurement: 
+
+1. Nominal, 
+
+1. Ordinal, 
+
+1. Interval, and 
+
+1. Ratio.
+
+
+---
+
+class: center, middle
+
+```{r}
+knitr::include_graphics("images/levels.png")
+```
+
+---
+
+# Levels of Measurement:
+
+1. .orange[Nominal level of measurement]: Variables whose values have no mathematical interpretation; they vary in kind or quality but not in amount.
+
+--
+
+1. .orange[Ordinal level of measurement]:
+A measurement of a variable in which the numbers indicating a variable’s values specify only the order of the cases, permitting greater than and less than distinctions.
+
+--
+
+1. .orange[Interval level of measurement]: A measurement of a variable in which the numbers indicating a variable’s values represent fixed measurement units but have no absolute, or fixed, zero point.
+
+--
+
+1. .orange[Ratio level of measurement]: A measurement of a variable in which the numbers indicating the variable’s values represent fixed measuring units and an absolute zero point.
+
+---
+
+# Sampling
 
 ---
 

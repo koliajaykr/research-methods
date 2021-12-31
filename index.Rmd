@@ -1077,9 +1077,60 @@ ASA: American Sociological Association
 
 1. Do not duplicate publication
 
+
+
 ---
 
 name: session4
+
+class: title-slide, center, middle, inverse, hide-count, hide-logo
+
+background-image: url("https://images.unsplash.com/photo-1445905595283-21f8ae8a33d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1773&q=80")
+background-size: cover
+background-position: 
+
+# .white[The Process and Problems of Social Research]
+
+## .white[Session 4]
+
+---
+
+- The reasons why we do social research: to describe, explore, explain, and evaluate
+
+- How of social research:
+  - A research question, 
+  - Developing an appropriate research strategy and design with which to investigate that question, and
+  - Choosing appropriate units of analysis. 
+
+---
+
+# Social research question:
+
+A question about the social world that is answered through the collection and analysis of first-hand, verifiable, empirical data.
+
+---
+
+# "Good" research question:
+
+- `Feasibility` - Can you start and finish an investigation of your research question with available resources and in the time allotted?
+
+--
+
+- `Social importance` - Will an answer to your research question make a difference in the social world, even if it only helps people understand a problem they consider important? 
+
+--
+
+- `Scientific relevance` - Does your research question help resolve some contradictory research findings or a puzzling issue in social theory?
+
+---
+
+# What Is the Theory?
+
+- Building and evaluating theory is one of the most important objectives of social science.
+
+---
+
+name: session5
 
 class: title-slide, center, middle, inverse, hide-count, hide-logo
 

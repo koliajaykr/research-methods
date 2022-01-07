@@ -125,7 +125,7 @@ magick::image_read("images/ajaykoli.png")
 - Schedule:
   - Total sessions are eight
   - `r emo::ji("date")` 15 Dec 2021 to 07 Jan 2022; every Wednesday & Friday 
-  - `r emo::ji("clock")` from 06:30 to 08:30 PM IST.
+  - `r emo::ji("alarm_clock")` from 06:30 to 08:30 PM IST.
 
 ---
 
@@ -139,13 +139,11 @@ name: contents-slide
 
 1. [Ethics in Research](#session3)
 
-1. [Sampling](#session4)
+1. [Literature Review, Measurement & Sampling](#session4)
 
 1. [Quantitative Methods & Analysis](#session5) 
 
 1. [Qualitative Methods & Analysis](#session6) 
-
-1. [Using R for Research Writing & Communication](#session7) 
 
 ---
 
@@ -1452,8 +1450,7 @@ knitr::include_graphics("images/bias.png")
 
 ---
 
-.pull-left[
-## Probability sampling methods:
+# Probability sampling methods:
 
 1. Simple random sampling,
 
@@ -1463,27 +1460,11 @@ knitr::include_graphics("images/bias.png")
 
 1. Stratified random sampling.
 
-]
-
---
-
-.pull-right[
-## Nonprobability sampling methods:
-
-1. Availability sampling, 
-
-1. Quota sampling, 
-
-1. Purposive sampling, and 
-
-1. Snowball sampling.
-]
-
 ---
 
-# Probability sampling methods:
+### .orange[Probability sampling methods]
 
-## .orange[Simple random sampling]
+# Simple random sampling:
 
 - A method of sampling in which every sample element is selected purely on the basis of chance through a random process.
 
@@ -1491,15 +1472,11 @@ knitr::include_graphics("images/bias.png")
 knitr::include_graphics("https://www.questionpro.com/blog/wp-content/uploads/2018/03/Simple-random-sampling-wt-logo.jpg")
 ```
 
-.footnote[
-You should not confuse simple random sampling with *haphazard* sampling. p. 123
-]
-
 ---
 
-# Probability sampling methods:
+### .orange[Probability sampling methods]
 
-## .orange[Systematic random sampling]
+# Systematic random sampling:
 
 - A method of sampling in which sample elements are selected from a list or from sequential files, with every nth element being selected after the first element is selected randomly.
 
@@ -1510,22 +1487,22 @@ knitr::include_graphics("https://www.questionpro.com/blog/wp-content/uploads/201
 
 ---
 
-# Probability sampling methods:
+### .orange[Probability sampling methods]
 
-## .orange[Cluster sampling]
+# Cluster sampling
 
 - Sampling in which elements are selected in two or more stages, with the first stage being the random selection of naturally occurring clusters and the last stage being the random selection of elements within clusters.
 
 ```{r echo=FALSE, fig.align='center', out.width="50%"}
-knitr::include_graphics("https://www.questionpro.com/blog/wp-content/uploads/2018/03/Cluster-sampling.jpg")
+knitr::include_graphics("https://www.voxco.com/wp-content/uploads/2021/03/Cluster-Sampling-21.png")
 ```
 
 
 ---
 
-# Probability sampling methods:
+### .orange[Probability sampling methods]
 
-## .orange[Stratified random sampling]
+# Stratified random sampling
 
 - A method of sampling in which sample elements are selected separately from population strata that the researcher identifies in advance
 
@@ -1537,15 +1514,32 @@ knitr::include_graphics("https://www.questionpro.com/blog/wp-content/uploads/201
 
 # Nonprobability sampling methods:
 
-## .orange[Convenience/Availability sampling] 
+1. Availability sampling, 
 
-- Sampling in which elements are selected on the basis of convenience.
+1. Quota sampling, 
+
+1. Purposive sampling, and 
+
+1. Snowball sampling.
 
 ---
 
-# Nonprobability sampling methods:
+### .orange[Nonprobability sampling methods]
 
-## .orange[Quota sampling] 
+# Convenience/Availability sampling 
+
+- Sampling in which elements are selected on the basis of convenience.
+
+```{r echo=FALSE, fig.align='center', out.width="60%"}
+knitr::include_graphics("https://img.favpng.com/21/17/9/simple-random-sample-convenience-sampling-stratified-sampling-png-favpng-4dMMGGKQCgP1Q4J1KBKDmUp2u.jpg")
+```
+
+
+---
+
+### .orange[Nonprobability sampling methods]
+
+# Quota sampling
 
 - A nonprobability sampling method in which elements are selected to ensure that the sample represents certain characteristics in proportion to their prevalence in the population.
 
@@ -1555,9 +1549,9 @@ knitr::include_graphics("https://images.deepai.org/glossary-terms/1d26bd13f5af4c
 
 ---
 
-# Nonprobability sampling methods:
+### .orange[Nonprobability sampling methods]
 
-## .orange[Purposive sampling]
+# Purposive sampling
 
 - A nonprobability sampling method in which elements are selected for a purpose, usually because of their unique position.
 
@@ -1567,36 +1561,218 @@ knitr::include_graphics("https://rm-15da4.kxcdn.com/wp-content/uploads/2012/06/P
 
 ---
 
-# Nonprobability sampling methods:
+### .orange[Nonprobability sampling methods]
 
-## .orange[Snowball sampling]
+# Snowball sampling
 
 - A method of sampling in which sample elements are selected as successive informants or interviewees identify them.
+
+```{r echo=FALSE, fig.align='center', out.width="55%"}
+knitr::include_graphics("https://www.questionpro.com/blog/wp-content/uploads/2018/08/Snowball-Sampling_V01.jpg")
+```
 
 ---
 
 name: session5
 
-class: center, middle, inverse, hide-count
+class: title-slide, center, middle, inverse, hide-count, hide-logo
 
-# Session 5 <br>Quantitative Methods & Analysis
+background-image: url("https://images.unsplash.com/photo-1611077544775-6e72542a206f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1578&q=80")
+background-size: cover
+
+# Quantitative Methods & Analysis
+## Session 5 
+<br>
+---
+
+# Survey research 
+
+It collects information from a sample of individuals through their responses to standardized
+questions.
+
+--
+
+# Survey Designs
+
+1. Mailed surveys
+
+1. Phone surveys
+
+1. In-person surveys, and
+
+1. Electronic (especially web) surveys
+
+---
+
+# Statistic:
+
+- A numerical description of some feature of a variable or variables in a sample from a larger population.
+
+--
+
+.pull-left[
+## Descriptive statistics:
+
+- Statistics used to describe the distribution of and relationship among variables.
+]
+
+--
+
+.pull-right[
+## Inferential statistics:
+
+- Statistics used to estimate how likely it is that a statistical result based on data from a random sample is representative of the population from which the sample is assumed to have been selected
+]
+
+---
+
+#  Data cleaning:
+
+- The process of checking data for errors after the data have been entered in a computer file.
+
+--
+
+- Missing values
+
+--
+
+- Outlier: An exceptionally high or low value in a distribution.
+
+---
+
+# Descriptive Statistics
+
+- Central tendency; mean, median and mode values
+
+--
+
+- Variability; standard deviation
+
+--
+
+- Skewness
+
+```{r echo=FALSE, fig.align='center', out.width="55%"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Negative_and_positive_skew_diagrams_%28English%29.svg/446px-Negative_and_positive_skew_diagrams_%28English%29.svg.png")
+```
+
+---
+
+# Data Visualisation
+
+- Bar chart: A graphic for qualitative variables in which the variable’s distribution is displayed with solid bars separated by spaces.
+
+--
+
+- Histogram: A graphic for quantitative variables in which the variable’s distribution is displayed with adjacent bars.
+
+
+---
+
+# Association/Correlation:
+
+- A criterion for establishing a causal relationship between two variables: Variation in one variable is empirically related to variation in another variable.
+
+--
+
+# Causal effect
+
+The finding that change in one variable leads to change in another variable
 
 ---
 
 name: session6
 
-class: center, middle, inverse, hide-count
+class: title-slide, center, middle, inverse, hide-count, hide-logo
 
-# Session 6 <br>Qualitative Methods & Analysis
+background-image: url("https://images.unsplash.com/photo-1540634759006-203f597e1a34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=982&q=80")
+background-size: cover
+
+# .white[Qualitative Methods & Analysis]
+## .white[Session 6]
+<br>
+<br>
+<br>
+<br>
 
 ---
 
-name: session7
+# Qualitative methods:
 
-class: center, middle, inverse, hide-count
+- Methods, such as participant observation, intensive interviewing, and focus groups, that are designed to capture social life as participants experience it rather than in categories the researcher predetermines. 
 
-# Session 7 <br>Using R for Research <br>Writing & Communication
+--
 
+- These methods typically involve .orange[exploratory research questions], inductive reasoning, an orientation to social context, and a focus on .orange[human subjectivity] and the meanings participants attach to events and to their lives.
+
+---
+
+# Ethnography:
+
+- The study and systematic recording of human cultures.
+
+```{r out.width="35%", fig.align='center'}
+knitr::include_graphics("https://ocw.mit.edu/courses/science-technology-and-society/sts-360-ethnography-spring-2003/sts-360s03.jpg")
+```
+
+---
+
+# Participant observation:
+- A qualitative method for gathering data that involves developing a sustained relationship with people while they go about their normal activities.
+
+```{r out.width="35%", fig.align='center'}
+knitr::include_graphics("images/observation.png")
+```
+
+---
+
+## Intensive (depth) interviewing:
+
+- A qualitative method that involves open-ended, relatively unstructured questioning in which the interviewer seeks in-depth information on the interviewee’s feelings, experiences, and perceptions.
+
+--
+
+## Focus groups:
+
+- A qualitative method that involves unstructured group interviews in which the focus group leader actively encourages discussion among participants on the topics of interest.
+
+---
+
+# Qualitative data analysis:
+
+- Techniques used to search and code textual, aural, and pictorial data and to explore relationships among the resulting categories.
+
+---
+
+# Most approaches to qualitative data analysis take five steps:
+
+1. Documentation of the data and data collection
+
+--
+
+1. Conceptualization and coding
+
+--
+
+1. Examining relationships to show how one concept may influence another
+
+--
+
+1. Authenticating conclusions by evaluating alternative explanations, disconfirming evidence, and searching for negative cases
+
+--
+
+1. Reflexivity
+
+---
+
+## Computer-assisted qualitative data analysis:
+
+- Analysis of textual, aural, or pictorial data using a special computer program that facilitates searching and coding text.
+
+```{r fig.align='center', out.width="60%"}
+knitr::include_graphics("images/coding.png")
+```
 
 ---
 
@@ -1610,3 +1786,16 @@ class: center, middle, inverse, hide-count
 
 1. Sekaran, U., & Bougie, R. (2019). Research methods for business: A skill building approach. John Wiley & Sons.
 
+1. Most of the images are from website [Unsplash](https://unsplash.com/) and few from internet.
+
+---
+
+class: center, middle, hide-count, hide-logo
+
+background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Dr._Bhimrao_Ambedkar.jpg/440px-Dr._Bhimrao_Ambedkar.jpg")
+background-size: 
+background-position: left
+
+## .b.right["Educate. Agitate. Organise."]
+### .right[[Dr B. R. Ambedkar](https://en.wikipedia.org/wiki/B._R._Ambedkar)]
+### .right[Thank you]

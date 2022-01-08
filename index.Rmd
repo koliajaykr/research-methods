@@ -1480,7 +1480,7 @@ knitr::include_graphics("https://www.questionpro.com/blog/wp-content/uploads/201
 
 - A method of sampling in which sample elements are selected from a list or from sequential files, with every nth element being selected after the first element is selected randomly.
 
-```{r echo=FALSE, fig.align='center', out.width="50%"}
+```{r echo=FALSE, fig.align='center', out.width="45%"}
 knitr::include_graphics("https://www.questionpro.com/blog/wp-content/uploads/2018/03/2.jpg")
 ```
 
@@ -1720,7 +1720,7 @@ knitr::include_graphics("https://ocw.mit.edu/courses/science-technology-and-soci
 # Participant observation:
 - A qualitative method for gathering data that involves developing a sustained relationship with people while they go about their normal activities.
 
-```{r out.width="35%", fig.align='center'}
+```{r out.width="33%", fig.align='center'}
 knitr::include_graphics("images/observation.png")
 ```
 
@@ -1770,7 +1770,7 @@ knitr::include_graphics("images/observation.png")
 
 - Analysis of textual, aural, or pictorial data using a special computer program that facilitates searching and coding text.
 
-```{r fig.align='center', out.width="60%"}
+```{r fig.align='center', out.width="45%"}
 knitr::include_graphics("images/coding.png")
 ```
 

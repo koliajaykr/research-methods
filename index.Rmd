@@ -1469,7 +1469,7 @@ knitr::include_graphics("images/bias.png")
 - A method of sampling in which every sample element is selected purely on the basis of chance through a random process.
 
 ```{r echo=FALSE, fig.align='center', out.width="50%"}
-knitr::include_graphics("https://www.questionpro.com/blog/wp-content/uploads/2018/03/Simple-random-sampling-wt-logo.jpg")
+knitr::include_graphics("images/srm.jpeg")
 ```
 
 ---
@@ -1481,7 +1481,7 @@ knitr::include_graphics("https://www.questionpro.com/blog/wp-content/uploads/201
 - A method of sampling in which sample elements are selected from a list or from sequential files, with every nth element being selected after the first element is selected randomly.
 
 ```{r echo=FALSE, fig.align='center', out.width="45%"}
-knitr::include_graphics("https://www.questionpro.com/blog/wp-content/uploads/2018/03/2.jpg")
+knitr::include_graphics("images/systematic.jpeg")
 ```
 
 
@@ -1507,7 +1507,7 @@ knitr::include_graphics("https://www.voxco.com/wp-content/uploads/2021/03/Cluste
 - A method of sampling in which sample elements are selected separately from population strata that the researcher identifies in advance
 
 ```{r echo=FALSE, fig.align='center', out.width="50%"}
-knitr::include_graphics("https://www.questionpro.com/blog/wp-content/uploads/2018/03/1-1.jpg")
+knitr::include_graphics("images/strata.jpeg")
 ```
 
 ---
@@ -1568,7 +1568,7 @@ knitr::include_graphics("https://rm-15da4.kxcdn.com/wp-content/uploads/2012/06/P
 - A method of sampling in which sample elements are selected as successive informants or interviewees identify them.
 
 ```{r echo=FALSE, fig.align='center', out.width="55%"}
-knitr::include_graphics("https://www.questionpro.com/blog/wp-content/uploads/2018/08/Snowball-Sampling_V01.jpg")
+knitr::include_graphics("images/snow.jpeg")
 ```
 
 ---

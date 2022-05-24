@@ -1,8 +1,8 @@
 ---
 title: "STAR"
-subtitle: "Steps Towards Academic Research"
-author: "By: Ajay Koli"
-date: "`r format(Sys.Date(), '%B %e, %Y')`"
+subtitle: "Step Towards<br>Academic Research"
+author: "Ajay Koli"
+#date: "`r format(Sys.Date(), '%B %e, %Y')`"
 output:
   xaringan::moon_reader:
     includes:
@@ -14,7 +14,7 @@ output:
       # autoplay: 5000
       highlightStyle: solarized-light
       highlightLanguage: ["r", "css", "yaml"]
-      slideNumberFormat: "%current%/%total%" 
+      slideNumberFormat: "%current%" 
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
@@ -24,12 +24,13 @@ output:
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(collapse = TRUE,
                       fig.retina = 3,
-                      echo = FALSE)
+                      echo = FALSE,
+                      fig.align = 'center')
 library(countdown)
 library(ymlthis)
 library(tidyverse)
 library(magick)
-library(icon)
+library(icons)
 library(xaringanExtra)
 xaringanExtra::use_tachyons()
 xaringanExtra::use_tile_view()
@@ -38,7 +39,6 @@ xaringanExtra::use_fit_screen()
 xaringanExtra::use_extra_styles(hover_code_line = TRUE, mute_unhighlighted_code = TRUE)
 xaringanExtra::use_share_again()
 xaringanExtra::use_panelset()
-
 ```
 
 layout: true
@@ -72,12 +72,22 @@ meta() %>%
 
 <br>
 <br>
-<br>
-# .big-text.white[`r rmarkdown::metadata$title`]
+# .white.big-text[STAR]
 
-## .white.b[`r rmarkdown::metadata$subtitle`]
+# .ttu.white[`r rmarkdown::metadata$subtitle`]
 
-### .white.b[`r rmarkdown::metadata$author` | `r format(Sys.Date(), "%d %B %Y") `]
+### .white.b[`r rmarkdown::metadata$author`]
+
+---
+
+class: center, middle
+
+background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Dr._Bhimrao_Ambedkar.jpg/440px-Dr._Bhimrao_Ambedkar.jpg")
+background-size: 
+background-position: left
+
+## .right["Educate. Agitate. Organise."]
+### .right[[Dr B. R. Ambedkar](https://en.wikipedia.org/wiki/B._R._Ambedkar)]
 
 ---
 class: center, middle
@@ -88,8 +98,9 @@ library(magick)
 magick::image_read("images/ajaykoli.png") 
 ```
 
-`r icon::fa("twitter")`[@ajay_kolii](https://twitter.com/ajay_kolii) <br> 
-`r icon::fa("envelope")`   [koliajaykumar@gmail.com](koliajaykumar@gmail.com)
+[Ajay Koli](https://koliajay.netlify.app/)<br>
+Head of School of Data Science<br>
+Nalanda Academy - Wardha, India<br>`r icons::fontawesome$solid$envelope` [koliajaykumar@gmail.com](koliajaykumar@gmail.com)<br>`r icons::fontawesome$brands$twitter` [@ajay_kolii](https://twitter.com/ajay_kolii)
 
 ]
 
@@ -98,34 +109,44 @@ magick::image_read("images/ajaykoli.png")
 <br>
 <br>
 <br>
-
+<br>
 # Jai Bhim! `r emo::ji("blush")`
 ]
 
 ---
 
-# STAR 
-
-- STAR: Steps Towards Academic Research
-
---
-
-- It is a free research methodology course as part of Corporate Social Responsibility (CSR) activity of Department of Travel & Tourism, [Vishwakarma University](https://www.vupune.ac.in/) - Pune, India, exclusively for the students of [Digital Nalanda](https://www.digitalnalanda.com/). 
-
---
-
-- Its purpose is to encourage and train students to pursue research as a career.
-
---
-
-- Free eBooks will be given and slides will be shared.
+## STAR: Step Towards Academic Research
 
 --
 
 - Schedule:
-  - Total sessions are eight
-  - `r emo::ji("date")` 15 Dec 2021 to 07 Jan 2022; every Wednesday & Friday 
-  - `r emo::ji("alarm_clock")` from 06:30 to 08:30 PM IST.
+  - `r emo::ji("date")` 24 to 27 May 2022
+  
+  - `r emo::ji("alarm_clock")` from 08:00 to 11:00 AM & 14:00 to 18:00 PM IST
+  
+  - Total 28 HRS of sessions
+  
+--
+
+- Free eBooks will be given and slides will be shared.  
+
+---
+
+# Purpose
+
+- This Research Methodology Workshop is organised by the [Nalanda Academy](https://nalanda-academy.org/) to:
+
+--
+
+  - provide an overview of research,
+  
+--
+
+  - familiarity with quan, qual and mixed methods,
+  
+--
+
+  - research areas where data science can help.
 
 ---
 
@@ -149,9 +170,31 @@ name: contents-slide
 
 class: middle, center
 
-## .blue["in our everyday reasoning about the social world, prior experiences and orientations may have a major influence on what we perceive and how we interpret these perceptions.] ... 
+## .blue["in our .b[everyday reasoning] about the social world, prior experiences and orientations may have a major influence on what we perceive and how we interpret these perceptions.] ... 
 --
-.green[We need to move beyond first impressions and get reactions to more systematic methods of investigation. That’s what social research does."]<sup>2</sup>
+.green[We need to move .b[beyond first impressions] and get reactions to more systematic methods of investigation. That’s what social research does."]<sup>2</sup>
+
+---
+
+class: center
+
+### .orange.left[But is it easy to move beyond the first impressions knowledge?] 
+
+--
+
+.pull-left[
+```{r bruno, out.width="80%", fig.cap="Giordano Bruno"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/1/15/Giordano_Bruno.jpg")
+```
+]
+
+--
+
+.pull-right[
+```{r savitri, out.width="90%", fig.cap="Savitribai Phule"}
+knitr::include_graphics("https://thelogicalindian.com/h-upload/2022/01/03/209612-untitled-design-6.jpg")
+```
+]
 
 ---
 
@@ -298,7 +341,7 @@ background-size: cover
 - "Just close your eyes for a minute and utter the word research to yourself."<sup>1</sup>
 
 ---
-class: right
+class: right, hide-logo
 
 background-image: url("https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1632&q=80")
 background-size: cover
@@ -320,7 +363,7 @@ background-position:
 
 --
 
-###- How similar or different is your dish? <br>.green[Discussion]
+###- How similar or different is your cooked food? <br>.green[Discussion]
 
 --
 
@@ -328,25 +371,7 @@ background-position:
 
 ---
 
-# Social science methods help to avoid<sup>2</sup> :
-
--  `Overgeneralization:` Occurs when we unjustifiably conclude that what is true for some cases is true for all cases
-
---
-
-- `Selective or Inaccurate Observation:` Choosing to look only at things that are in line with our preferences or beliefs.
-
---
-
--  `Illogical reasoning:` The premature jumping to conclusions or arguing on the basis of invalid assumptions.
-
---
-
-- `Resistance to change:` The reluctance to change our ideas in light of new information.
-
----
-
-# Social science methods help to avoid<sup>2</sup> :
+# Social science methods help to avoid:
 
 .pull-left[
 -  `Overgeneralization` 
@@ -363,9 +388,69 @@ background-position:
 knitr::include_graphics("images/error.png")
 ```
 ]
+
 ---
 
-# Four goals of social research are<sup>2</sup>:
+# Social science methods help to avoid:
+
+.pull-left[
+-  `Overgeneralization`: Occurs when we unjustifiably conclude that what is true for some cases is true for all cases
+
+]
+
+.pull-right[
+```{r error-img2, out.width="100%", fig.align='center'}
+knitr::include_graphics("images/error.png")
+```
+]
+
+---
+
+# Social science methods help to avoid:
+
+.pull-left[
+- `Selective or Inaccurate Observation:` Choosing to look only at things that are in line with our preferences or beliefs.
+
+]
+
+.pull-right[
+```{r error-img3, out.width="100%", fig.align='center'}
+knitr::include_graphics("images/error.png")
+```
+]
+
+---
+
+# Social science methods help to avoid:
+
+.pull-left[
+-  `Illogical reasoning:` The premature jumping to conclusions or arguing on the basis of invalid assumptions.
+
+]
+
+.pull-right[
+```{r error-img4, out.width="100%", fig.align='center'}
+knitr::include_graphics("images/error.png")
+```
+]
+
+---
+
+# Social science methods help to avoid:
+
+-  Overgeneralization
+
+- Selective or Inaccurate Observation 
+
+-  Illogical reasoning
+
+- Resistance to change
+
+- `Resistance to change:` The reluctance to change our ideas in light of new information.
+
+---
+
+# Four goals of social research are:
 
 1. `Description:` Research in which social phenomena are defined and described.
 
@@ -437,20 +522,6 @@ knitr::include_graphics("images/cross-pop.png")
 
 ---
 
-# What did we learn?
-
-## `r emo::ji("check")` Why you want to do research?
-
---
-
-## `r emo::ji("check")` So what? `r emo::ji("smirk")`
-
---
-
-## `r emo::ji("check")` Validity of your research `r emo::ji("balance_scale")`
-
----
-
 name: session2
 
 class: title-slide, center, middle, inverse, hide-count, hide-logo
@@ -504,7 +575,11 @@ detailed methods of data collection, analysis, and interpretation."
 ]
 
 .pull-right[
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Qualitative methods, mixed methods, quantitative methods. <a href="https://t.co/6iv8izV6Ag">pic.twitter.com/6iv8izV6Ag</a></p>&mdash; Dr Raul Pacheco-Vega (@raulpacheco) <a href="https://twitter.com/raulpacheco/status/1458808875222802433?ref_src=twsrc%5Etfw">November 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<!-- <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Qualitative methods, mixed methods, quantitative methods. <a href="https://t.co/6iv8izV6Ag">pic.twitter.com/6iv8izV6Ag</a></p>&mdash; Dr Raul Pacheco-Vega (@raulpacheco) <a href="https://twitter.com/raulpacheco/status/1458808875222802433?ref_src=twsrc%5Etfw">November 11, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  -->
+```{r raul, out.width="55%"}
+knitr::include_graphics("images/raul.png")
+```
+
 ]
 
 ---
@@ -710,26 +785,6 @@ Paper link https://journals.sagepub.com/doi/abs/10.1177/2345678906292238
 ]
 
 ---
-
-# Research approach depends upon:
-
-- `Philosophical world-view`: a general philosophical orientation about the world and the nature of research that a researcher brings to a study
-
---
-
-- `Research designs`: procedures of inquiry as per the philosophical assumptions
-
---
-
-- `Research methods`<sup>1</sup> of data collection, analysis and interpretation
-
-
-
-.footnote[
-[1] Research methodology is different from research methods. `r emo::ji("exploding_head")`
-]
-
----
 class: center
 
 # A Framework for Research
@@ -744,6 +799,36 @@ knitr::include_graphics("https://www.researchgate.net/profile/Steve-Phillips-3/p
 
 ---
 
+# Research approach depends upon:
+
+- `Philosophical world-view`: a general philosophical orientation about the world and the nature of research that a researcher brings to a study
+
+```{r}
+knitr::include_graphics("https://www.researchgate.net/profile/Steve-Phillips-3/publication/327832478/figure/fig2/AS:674025185480712@1537711535595/A-Framework-for-Research-The-Interconnection-of-Worldviews-Design-and-Research-Methods.jpg")
+```
+
+---
+
+# Research approach depends upon:
+
+- `Research designs`: procedures of inquiry as per the philosophical assumptions
+
+```{r}
+knitr::include_graphics("https://www.researchgate.net/profile/Steve-Phillips-3/publication/327832478/figure/fig2/AS:674025185480712@1537711535595/A-Framework-for-Research-The-Interconnection-of-Worldviews-Design-and-Research-Methods.jpg")
+```
+
+---
+
+# Research approach depends upon:
+
+- `Research methods` of data collection, analysis and interpretation
+
+```{r}
+knitr::include_graphics("https://www.researchgate.net/profile/Steve-Phillips-3/publication/327832478/figure/fig2/AS:674025185480712@1537711535595/A-Framework-for-Research-The-Interconnection-of-Worldviews-Design-and-Research-Methods.jpg")
+```
+
+---
+
 # Philosophical Worldviews
 
 .pull-left[
@@ -751,7 +836,7 @@ knitr::include_graphics("https://www.researchgate.net/profile/Steve-Phillips-3/p
 
 - Determination (cause & effect)
 
-- Reductionism (idea -> variables -> hypothesis   )
+- Reductionism (idea -> variables -> hypothesis)
 
 - Empirical observation and measurement
 
@@ -1374,15 +1459,21 @@ background-position: 100% 50%
 
 ---
 
-##- “You don’t have to eat the whole tub of butter to know if it’s rancid.” Harsh, but true.
+###- .green[“You don’t have to eat the whole tub of butter to know if it’s rancid.” Harsh, but true.]
+
+<br>
+<br>
 
 --
 
-##- That is the essence of sampling: A small portion, carefully chosen, can reveal the quality of a much larger whole.
+###- That is the essence of sampling: A small portion, carefully chosen, can reveal the quality of a much larger whole.
+
+<br>
+<br>
 
 --
 
-##- Sampling techniques tell us how to select cases that can lead to valid generalizations about a population
+###- Sampling techniques tell us how to select cases that can lead to valid generalizations about a population
 
 .footnote[
 Slides from chapter 5 from book Chambliss, D. F., & Schutt, R. K. (2018). Making sense of the social world: Methods of investigation. Sage Publications.
@@ -1711,8 +1802,10 @@ background-size: cover
 
 - The study and systematic recording of human cultures.
 
-```{r out.width="35%", fig.align='center'}
-knitr::include_graphics("https://ocw.mit.edu/courses/science-technology-and-society/sts-360-ethnography-spring-2003/sts-360s03.jpg")
+<br>
+
+```{r out.width="70%", fig.align='center'}
+knitr::include_graphics("https://perspectivesinanthropology.files.wordpress.com/2015/01/ethnographic_immersion-1.jpg")
 ```
 
 ---
@@ -1790,12 +1883,9 @@ knitr::include_graphics("images/coding.png")
 
 ---
 
-class: center, middle, hide-count, hide-logo
+class: center, middle, hide-logo
 
-background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Dr._Bhimrao_Ambedkar.jpg/440px-Dr._Bhimrao_Ambedkar.jpg")
-background-size: 
-background-position: left
+background-image: url("https://images.unsplash.com/photo-1610209455607-89e8b3e0e393?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770")
+background-size: cover
 
-## .b.right["Educate. Agitate. Organise."]
-### .right[[Dr B. R. Ambedkar](https://en.wikipedia.org/wiki/B._R._Ambedkar)]
-### .right[Thank you]
+# .white.big-text[Congratulations!!<br>&<br>thank you `r emo::ji("hug")`]
